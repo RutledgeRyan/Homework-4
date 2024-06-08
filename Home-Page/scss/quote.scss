@@ -1,0 +1,39 @@
+.quote{
+padding: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+.content{
+max-width: 789px;
+
+.quote-text{
+    font-style: italic;
+    display: flex;
+    color: #FFD140;
+}
+
+.author{
+    color: #EE4367;
+    height: 19px;
+    margin-bottom: 7px;
+}
+.title{
+    font-size: 13px;
+}
+}
+}
+
+@media (max-width: 840px){
+    .quote{
+        .content{
+            
+            .quote-text{
+                
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

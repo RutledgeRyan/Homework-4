@@ -1,0 +1,158 @@
+footer{
+    width: 100%;
+    min-height: 455px;
+    background-color: #ee4367;
+    display: flex;
+    justify-content: center;
+    .centered-content{
+        
+        text-align: center;
+
+    .logo{ 
+        margin-top: 42px;
+        margin-left: 40%;
+        margin-bottom: 35px ;
+        position: relative;
+        width: 109px;
+        height: 38px;
+        border: solid 2px white;
+        span{
+            position: absolute;
+            bottom: -12px;
+            left: -2px;
+            color: white;
+            height: 25px;
+        }
+
+    }
+
+
+    .eventinfo{
+        color: white;
+        p{margin-bottom:4px;}
+        
+    }
+
+    .signup{
+        margin-top: 42px;
+        display: flex;
+        height: 60px;
+        input{
+            height: 100%;
+            width: 529px;
+            background-color: #f56b88;
+            border: none;
+            color: white;
+            opacity: 50%;
+            font-size: 16px;
+            padding-left: 15px;
+        }
+
+        .button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 167px;
+            background-color: white;
+            color: #ee4367;
+        }
+    }
+    .socialbuttons{
+        margin-top: 30px;
+        a {
+        border-radius: 10%;
+        width: 31.2px;
+        height: 31.2px;
+        background-color: white;
+        color: #ee4367;
+        margin-right: 30.5px;
+        }
+    }
+    .nav-wrapper{
+        height: 90px;
+        width: 100%;
+    
+    nav{
+        max-width: 980px;
+        min-height: 90px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        }
+        .gallery-links{
+            margin: 30px auto 10px auto;
+            width: 700px;
+            display: flex;
+            justify-content: space-around;
+            a{
+                background-color: white;
+                text-decoration: none;
+                color: black;
+                font-size: 15px;
+                border-radius: 20%;
+                
+    
+            }
+            span{
+                color: black;
+                margin-left: -30px;
+            }
+    
+        }
+    }
+    .copyright{
+        color: white;
+        opacity: 50%;
+        margin-top:10px ;
+
+    }
+
+}
+}
+@media (max-width: 840px) {
+    footer {
+        .centered-content {
+            .logo {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .eventinfo {
+                text-align: center;
+            }
+            .signup {
+                flex-direction: column;
+                align-items: center;
+                input {
+                    width: 50%;
+                    margin-bottom: 10px;
+                }
+                .button {
+                    width: 50%;
+                    text-align: center;
+                }
+            }
+            .socialbuttons {
+                justify-content: center;
+            }
+            .nav-wrapper {
+                
+                nav {
+                    border: none;
+                    .gallery-links {
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        a {
+                            margin: 5px;
+                        }
+                        span {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
